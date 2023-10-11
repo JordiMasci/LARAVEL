@@ -27,5 +27,6 @@ Route::get('/', function () {
 
     return view('home', [
         'titolo' => $titolo,
+        'arrayLista' => $arrayLista,
     ]);
 });

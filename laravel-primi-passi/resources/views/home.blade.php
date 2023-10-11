@@ -34,11 +34,13 @@
     </nav>
 
     <div class="container mt-5">
+        <h1 class="mb-5">{{ $titolo }}</h1>
         <ul>
-            <li>{{ $titolo }}</li>
-            <li>ciao</li>
-            <li>ciao</li>
-            <li>ciao</li>
+            @foreach ($arrayLista as $item)
+                <li>
+                    {{$item}}
+                </li>
+            @endforeach
         </ul>
     </div>
 </body>
