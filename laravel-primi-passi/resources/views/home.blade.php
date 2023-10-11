@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <!-- includiamo la head -->
     @include('models.head')
 </head>
 
