@@ -32,6 +32,15 @@
             </div>
         </div>
     </nav>
+
+    <div class="container mt-5">
+        <ul>
+            <li>{{ $titolo }}</li>
+            <li>ciao</li>
+            <li>ciao</li>
+            <li>ciao</li>
+        </ul>
+    </div>
 </body>
 
 </html>

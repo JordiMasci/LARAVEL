@@ -14,5 +14,18 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
+    $titolo = 'Prova lista';
+    $arrayLista = [
+        'Prova 1',
+        'Prova 2',
+        'Prova 3',
+        'Prova 4',
+    ];
+
+
+
+
+    return view('home', [
+        'titolo' => $titolo,
+    ]);
 });
