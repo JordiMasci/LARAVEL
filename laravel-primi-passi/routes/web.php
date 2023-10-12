@@ -30,3 +30,17 @@ Route::get('/', function () {
         'arrayLista' => $arrayLista,
     ]);
 })->name('homepage');
+
+
+
+Route::get('/about', function(){
+    $titolo = 'Pagina - About';
+    $arrayLista = [
+        'About 1',
+        'About 2',
+        'About 3',
+        'About 4',
+    ];
+
+    return view('about', compact('titolo', 'arrayLista'));
+})->name('about');
