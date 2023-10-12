@@ -29,4 +29,4 @@ Route::get('/', function () {
         'titolo' => $titolo,
         'arrayLista' => $arrayLista,
     ]);
-});
+})->name('homepage');
